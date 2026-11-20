@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  background: #f4f0ff;
+  color: #0b1b4a;
+}
+
+:focus-visible {
+  outline-color: #0a5cff;
+}
+
+.brand-hero-fx {
+  background-color: #071433;
+  background-image:
+    radial-gradient(540px 420px at 18% 16%, rgba(10, 92, 255, 0.55), transparent 62%),
+    radial-gradient(680px 520px at 82% 72%, rgba(10, 92, 255, 0.85), transparent 58%),
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: auto, auto, 56px 56px, 56px 56px;
+}
+
+.brand-hero-wash {
+  background: radial-gradient(circle at 30% 40%, rgba(255, 255, 255, 0.18), transparent 46%);
+  background-size: 160% 160%;
+}
+
+.brand-outline {
+  color: transparent;
+  -webkit-text-stroke: 0.03em #fff;
+}
+
+.shot-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
