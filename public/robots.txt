@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://os.cordoval.co.uk/sitemap.xml
+Sitemap: https://aios.cordoval.co.uk/sitemap.xml

@@ -1,6 +1,6 @@
 # Cordoval AI OS
 
-Website for Cordoval AI OS, a private AI workspace that runs on your own computer. It is coming soon to the Microsoft Store. The live site is [os.cordoval.co.uk](https://os.cordoval.co.uk/).
+Website for Cordoval AI OS, a private AI workspace that runs on your own computer. It is coming soon to the Microsoft Store. The live site is [aios.cordoval.co.uk](https://aios.cordoval.co.uk/).
 
 ## Run locally
 
